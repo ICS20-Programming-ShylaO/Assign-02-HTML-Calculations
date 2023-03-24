@@ -18,6 +18,6 @@ function calculate () {
   let volume = Math.PI * radius ** 2 * height;
 
   // output
-  document.getElementById('surfaceArea').innerHTML = 'Surface Area is: ' + surfaceArea + ' cm<sup>2</sup>'
-  document.getElementById('volume').innerHTML = 'Volume is: ' + volume + ' cm<sup>3</sup>'
+  document.getElementById('surfaceArea').innerHTML = 'Surface Area is: ' + surfaceArea.toFixed(2) + ' cm<sup>2</sup>'
+  document.getElementById('volume').innerHTML = 'Volume is: ' + volume.toFixed(2) + ' cm<sup>3</sup>'
 }
