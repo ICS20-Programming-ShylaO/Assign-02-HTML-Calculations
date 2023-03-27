@@ -8,7 +8,7 @@ body {
   background-color: #b0d7ff;
 }
 
-h2, h3 {
+h2 {
   background-color: #adacb5;
   text-align: center;
   border: 2px solid gray;
@@ -19,13 +19,36 @@ h2, h3 {
   margin-right: 100px;
 }
 
-p, #answers {
+h3 {
+  background-color: #adacb5;
+  text-align: center;
+  border: 2px solid gray;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+p {
   background-color: #adacb5;
   border: 2px solid gray;
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
-    padding-left: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 115%;
+}
+
+#answers {
+  background-color: #adacb5;
+  border: 2px solid gray;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
   font-weight: bold;
   color: white;
   font-size: 115%;
